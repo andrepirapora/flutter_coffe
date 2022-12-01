@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:youtube_diegoveloper_challenges/coffee_concept/coffee.dart';
-import 'package:youtube_diegoveloper_challenges/coffee_concept/coffee_concept_details.dart';
 
-import 'coffee_bloc.dart';
+import '../models/coffee.dart';
+import 'coffee_concept_details.dart';
+import '../controller/coffee_bloc.dart';
 
 const _duration = Duration(milliseconds: 300);
 
@@ -29,7 +29,8 @@ class _CoffeeConceptListState extends State<CoffeeConceptList> {
         elevation: 0,
         iconTheme: const IconThemeData(color: Colors.black),
         actions: [
-          IconButton(icon: const Icon(Icons.shopping_bag_outlined), onPressed: () {})
+          IconButton(
+              icon: const Icon(Icons.shopping_bag_outlined), onPressed: () {})
         ],
       ),
       body: Stack(

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:youtube_diegoveloper_challenges/coffee_concept/coffee.dart';
-import 'package:youtube_diegoveloper_challenges/coffee_concept/coffee_concept_list.dart';
+import '../models/coffee.dart';
+import 'coffee_concept_list.dart';
 
 class CoffeeConceptHome extends StatelessWidget {
   @override
